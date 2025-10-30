@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    background-color: #0d0d0d;
+    color: #e6e6e6;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: linear-gradient(135deg, #141414, #1f1f1f);
+    padding: 80px 20px;
+    text-align: center;
+    border-bottom: 2px solid #333;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    color: #df0d0d;
+  }
+  
+  header h2 {
+    color: #ccc;
+    font-weight: 400;
+    margin: 10px 0;
+  }
+  
+  header .welcome {
+    font-style: italic;
+    color: #999;
+  }
+  
+  header .about {
+    max-width: 600px;
+    margin: 20px auto;
+    font-size: 1rem;
+    color: #bbb;
+  }
+  
+  main {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  #skills {
+    margin-bottom: 60px;
+  }
+  
+  #skills h2 {
+    color: #df0d0d;
+    margin-bottom: 20px;
+  }
+  
+  #skills ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  #skills li {
+    background: #1a1a1a;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #df0d0d;
+    border: 1px solid #333;
+    transition: 0.3s;
+  }
+  
+  #skills li:hover {
+    background: #df0d0d;
+    color: #0d0d0d;
+  }
+  
+  #projects h2 {
+    color: #df0d0d;
+    margin-bottom: 20px;
+  }
+  
+  .project-card {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #333;
+    transition: transform 0.3s;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .project-card h3 {
+    color: #df0d0d;
+    margin-bottom: 10px;
+  }
+  
+  .project-card a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #df0d0d;
+    font-weight: bold;
+    border: 1px solid #df0d0d;
+    padding: 8px 14px;
+    border-radius: 6px;
+    transition: 0.3s;
+  }
+  
+  .project-card a:hover {
+    background: #df0d0d;
+    color: #0d0d0d;
+  }
+  
+  /* ===== Experience ===== */
+  #experience h2 {
+    color: #df0d0d;
+    margin-bottom: 20px;
+  }
+  
+  .experience-item, .education {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #333;
+  }
+  
+  .experience-item h3,
+  .education h3 {
+    color: #df0d0d;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 30px 0;
+    border-top: 2px solid #333;
+    background: #141414;
+  }
+  
+  footer a {
+    color: #df0d0d;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  footer p {
+    color: #888;
+    font-size: 0.9rem;
+  }
+  
